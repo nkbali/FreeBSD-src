@@ -57,7 +57,7 @@ if [ $? -eq 0 ]; then
 else
 	# Serial or other console
 	echo
-	echo "Welcome to pfSense!"
+	echo "Welcome to TenSense!"
 	echo
 	echo "Please choose the appropriate terminal type for your system."
 	echo "Common console types are:"
@@ -98,7 +98,7 @@ if [ ! -f /tmp/buildroom ]; then
 fi
 
 IOPTS="\
-\"Install\" \"Install pfSense\" \
+\"Install\" \"Install TenSense\" \
 \"Rescue Shell\" \"Launch a shell for rescue operations\""
 
 if [ -x /root/recover_configxml.sh ] ; then
